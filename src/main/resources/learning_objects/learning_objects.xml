@@ -1,0 +1,122 @@
+<rules>
+	<learningObjects>
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Conceitos do C++</identifier>
+			<competencies>
+				<string>CONCEITOS_C</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Programação Estruturada</identifier>
+			<competencies>
+				<string>PROGRAMACAO_ESTRUTURADA</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Pseudocódigo</identifier>
+			<constraints>
+				<string>PROGRAMACAO_ESTRUTURADA</string>
+			</constraints>
+			<competencies>
+				<string>PSEUDOCODIGO</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Estruturas de Controle</identifier>
+			<constraints>
+				<string>PSEUDOCODIGO</string>
+			</constraints>
+			<competencies>
+				<string>ESTRUTURA_CONTROLE</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Estruturas de Repetição</identifier>
+			<constraints>
+				<string>PSEUDOCODIGO</string>
+			</constraints>
+			<competencies>
+				<string>ESTRUTURA_REPETICAO</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando IF</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_CONTROLE</string>
+			</constraints>
+			<competencies>
+				<string>IF</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando IF/ELSE</identifier>
+			<constraints>
+				<string>IF</string>
+			</constraints>
+			<competencies>
+				<string>IF_ELSE</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando SWITCH</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_CONTROLE</string>
+			</constraints>
+			<competencies>
+				<string>SWITCH</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando WHILE</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_REPETICAO</string>
+			</constraints>
+			<competencies>
+				<string>WHILE</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando FOR</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_REPETICAO</string>
+			</constraints>
+			<competencies>
+				<string>FOR</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando DO_WHILE</identifier>
+			<constraints>
+				<string>WHILE</string>
+			</constraints>
+			<competencies>
+				<string>DO_WHILE</string>
+			</competencies>
+		</learningObject>
+	</learningObjects>
+</rules>

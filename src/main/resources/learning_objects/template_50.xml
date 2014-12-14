@@ -1,0 +1,554 @@
+<rules>
+	<learningObjects>
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 1</identifier>
+			<competencies>
+				<string>Acolhimento</string>
+				<string>Orientacoes</string>
+				<string>Encaminhamentos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 2</identifier>
+			<constraints>
+				<string>Acolhimento</string>
+			</constraints>
+			<competencies>
+				<string>Abono Familia</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 3</identifier>
+			<constraints>
+				<string>Orientacoes</string>
+				<string>Encaminhamentos</string>
+			</constraints>
+			<competencies>
+				<string>Salario Familia</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 4</identifier>
+			<constraints>
+				<string>Salario Familia</string>
+			</constraints>
+			<competencies>
+				<string>Projeto novos mundos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 5</identifier>
+			<constraints>
+				<string>Projeto novos mundos</string>
+			</constraints>
+			<competencies>
+				<string>Projetos integrativos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 6</identifier>
+			<constraints>
+				<string>Projetos integrativos</string>
+			</constraints>
+			<competencies>
+				<string>Projetos socioculturais</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 7</identifier>
+			<constraints>
+				<string>Projetos socioculturais</string>
+			</constraints>
+			<competencies>
+				<string>Programa viver</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 8</identifier>
+			<constraints>
+				<string>Programa viver</string>
+			</constraints>
+			<competencies>
+				<string>Projeto novos rumos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 9</identifier>
+			<constraints>
+				<string>Projeto novos rumos</string>
+			</constraints>
+			<competencies>
+				<string>Projeto servidor em movimento</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 10</identifier>
+			<constraints>
+				<string>Projeto servidor em movimento</string>
+			</constraints>
+			<competencies>
+				<string>Procedimentos administrativos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 11</identifier>
+			<constraints>
+				<string>Procedimentos administrativos</string>
+			</constraints>
+			<competencies>
+				<string>Amparo legal</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 12</identifier>
+			<constraints>
+				<string>Amparo legal</string>
+			</constraints>
+			<competencies>
+				<string>Nucleo de cadastro</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 13</identifier>
+			<constraints>
+				<string>Nucleo de cadastro</string>
+			</constraints>
+			<competencies>
+				<string>Acompanhamento dos registros</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 14</identifier>
+			<constraints>
+				<string>Acompanhamento dos registros</string>
+			</constraints>
+			<competencies>
+				<string>Cadastros</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 15</identifier>
+			<constraints>
+				<string>Cadastros</string>
+			</constraints>
+			<competencies>
+				<string>Nucleo de cargos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 16</identifier>
+			<constraints>
+				<string>Nucleo de cargos</string>
+			</constraints>
+			<competencies>
+				<string>Administracao do plano</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 17</identifier>
+			<constraints>
+				<string>Administracao do plano</string>
+			</constraints>
+			<competencies>
+				<string>Analise dos processos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 18</identifier>
+			<constraints>
+				<string>Analise dos processos</string>
+			</constraints>
+			<competencies>
+				<string>Elaboracao de Atos Administrativos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 19</identifier>
+			<constraints>
+				<string>Elaboracao de Atos Administrativos</string>
+			</constraints>
+			<competencies>
+				<string>Manutencao do quadro de lotacao</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 20</identifier>
+			<constraints>
+				<string>Manutencao do quadro de lotacao</string>
+			</constraints>
+			<competencies>
+				<string>Controle de vagas</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 21</identifier>
+			<constraints>
+				<string>Controle de vagas</string>
+			</constraints>
+			<competencies>
+				<string>Nucleo de recrutamento</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 22</identifier>
+			<constraints>
+				<string>Nucleo de recrutamento</string>
+			</constraints>
+			<competencies>
+				<string>Convocacao de candidatos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 23</identifier>
+			<constraints>
+				<string>Convocacao de candidatos</string>
+			</constraints>
+			<competencies>
+				<string>Atendimento de contratos</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 24</identifier>
+			<constraints>
+				<string>Atendimento de contratos</string>
+			</constraints>
+			<competencies>
+				<string>Cadastro dos servidores</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 25</identifier>
+			<constraints>
+				<string>Cadastro dos servidores</string>
+			</constraints>
+			<competencies>
+				<string>Nucleo de registro</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 26</identifier>
+			<constraints>
+				<string>Cadastro dos servidores</string>
+				<string>Nucleo de registro</string>
+			</constraints>
+			<competencies>
+				<string>Nucleo geral</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 27</identifier>
+			<constraints>
+				<string>Nucleo de registro</string>
+			</constraints>
+			<competencies>
+				<string>Registro de vida funcional</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 28</identifier>
+			<constraints>
+				<string>Registro de vida funcional</string>
+			</constraints>
+			<competencies>
+				<string>Atendimento de solicitacoes</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 29</identifier>
+			<constraints>
+				<string>Atendimento de solicitacoes</string>
+			</constraints>
+			<competencies>
+				<string>Regime Disciplinar</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 30</identifier>
+			<constraints>
+				<string>Regime Disciplinar</string>
+			</constraints>
+			<competencies>
+				<string>Observar as normas</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 31</identifier>
+			<constraints>
+				<string>Observar as normas</string>
+			</constraints>
+			<competencies>
+				<string>Cumprir as ordens</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 32</identifier>
+			<constraints>
+				<string>Cumprir as ordens</string>
+			</constraints>
+			<competencies>
+				<string>Manter conduta</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 33</identifier>
+			<constraints>
+				<string>Manter conduta</string>
+			</constraints>
+			<competencies>
+				<string>Proibicoes</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 34</identifier>
+			<constraints>
+				<string>Proibicoes</string>
+			</constraints>
+			<competencies>
+				<string>Opor resistencia</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 35</identifier>
+			<constraints>
+				<string>Opor resistencia</string>
+			</constraints>
+			<competencies>
+				<string>Penalidades disciplinares</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 36</identifier>
+			<constraints>
+				<string>Penalidades disciplinares</string>
+			</constraints>
+			<competencies>
+				<string>Destituicao do cargo</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 37</identifier>
+			<constraints>
+				<string>Destituicao do cargo</string>
+			</constraints>
+			<competencies>
+				<string>Cassacao</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 38</identifier>
+			<constraints>
+				<string>Cassacao</string>
+			</constraints>
+			<competencies>
+				<string>Incopetencia publica</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 39</identifier>
+			<constraints>
+				<string>Incopetencia publica</string>
+			</constraints>
+			<competencies>
+				<string>Insubordinacao</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 40</identifier>
+			<constraints>
+				<string>Insubordinacao</string>
+			</constraints>
+			<competencies>
+				<string>Inassiduidade habitual</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 41</identifier>
+			<constraints>
+				<string>Inassiduidade habitual</string>
+			</constraints>
+			<competencies>
+				<string>Corrupcao</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 42</identifier>
+			<constraints>
+				<string>Corrupcao</string>
+			</constraints>
+			<competencies>
+				<string>Controladoria Geral do Municipio</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 43</identifier>
+			<constraints>
+				<string>Controladoria Geral do Municipio</string>
+			</constraints>
+			<competencies>
+				<string>Procuradoria Geral</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 44</identifier>
+			<constraints>
+				<string>Procuradoria Geral</string>
+			</constraints>
+			<competencies>
+				<string>Secretaria Municipal de Educacao</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 45</identifier>
+			<constraints>
+				<string>Secretaria Municipal de Educacao</string>
+			</constraints>
+			<competencies>
+				<string>Secretaria Municipal de Cultura</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 46</identifier>
+			<constraints>
+				<string>Secretaria Municipal de Cultura</string>
+			</constraints>
+			<competencies>
+				<string>Secretaria Municipal Social do trabalho</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 47</identifier>
+			<constraints>
+				<string>Secretaria Municipal Social do trabalho</string>
+			</constraints>
+			<competencies>
+				<string>Secretaria Municipal de Defesa Social</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 48</identifier>
+			<constraints>
+				<string>Secretaria Municipal de Defesa Social</string>
+			</constraints>
+			<competencies>
+				<string>Secretaria de Comunicacao Social</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 49</identifier>
+			<constraints>
+				<string>Secretaria de Comunicacao Social</string>
+			</constraints>
+			<competencies>
+				<string>Secretaria do Governo</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Nucleo de Acompanhamento 50</identifier>
+			<constraints>
+				<string>Secretaria do Governo</string>
+			</constraints>
+			<competencies>
+				<string>Integracao</string>
+			</competencies>
+		</learningObject>
+	</learningObjects>
+</rules>
