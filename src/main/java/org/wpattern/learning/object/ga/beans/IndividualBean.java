@@ -180,14 +180,4 @@ public class IndividualBean extends BaseBean implements Cloneable {
 		}
 	}
 
-	public Object getState() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getPathFromRoot() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

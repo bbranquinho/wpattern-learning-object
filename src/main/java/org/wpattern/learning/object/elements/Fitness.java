@@ -86,6 +86,11 @@ public class Fitness implements IFitness {
 				for (String constraint : learningObject.getConstraints()) {
 					if (!competencies.contains(constraint)) {
 						countConstraints++;
+
+						if (LOGGER.isTraceEnabled()) {
+							LOGGER.trace(String.format("Constraint not satified [%s] to the object [%s] with index [%s].",
+									constraint, learningObject, learningObjectIndex));
+						}
 					}
 				}
 			}

@@ -4,9 +4,17 @@ import org.apache.log4j.Logger;
 
 public final class Main {
 
-	private static final Logger LOGGER = Logger.getLogger(Main.class);
+	private static Logger LOGGER;
 
 	public static void main(String[] args) {
+		if (args.length == 2) {
+			System.setProperty("logLevel", args[1]);
+		} else {
+			System.setProperty("logLevel", "info");
+		}
+
+		LOGGER = Logger.getLogger(Main.class);
+
 		if (LOGGER.isInfoEnabled()) {
 			LOGGER.info("Application started.");
 		}

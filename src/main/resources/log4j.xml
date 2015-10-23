@@ -22,7 +22,7 @@
 	</appender>
 
 	<logger name="org.wpattern">
-		<level value="info" />
+		<level value="${logLevel}" />
 	</logger>
 
 	<root>

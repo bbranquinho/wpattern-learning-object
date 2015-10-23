@@ -190,12 +190,12 @@
 		
 		<learningObject>
 			<duration>10</duration>
-			<identifier>Busca Profundidade</identifier>
+			<identifier>Busca Direcionada</identifier>
 			<constraints>
 				<string>GRAFOS</string>
 			</constraints>
 			<competencies>
-				<string>BUSCA_PROFUNDIDADE</string>
+				<string>BUSCA_DIRECIONADA</string>
 			</competencies>
 		</learningObject>
 		
@@ -203,6 +203,7 @@
 			<duration>10</duration>
 			<identifier>Busca Bi Direcional</identifier>
 			<constraints>
+				<string>BUSCA_DIRECIONADA</string>
 				<string>BUSCA_PROFUNDIDADE</string>
 				<string>BUSCA_LARGURA</string>
 			</constraints>

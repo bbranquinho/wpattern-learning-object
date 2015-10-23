@@ -37,7 +37,7 @@
 				<string>ESTRUTURA_CONTROLE</string>
 			</competencies>
 		</learningObject>
-		
+				
 		<learningObject>
 			<duration>10</duration>
 			<identifier>Estruturas de Repetição</identifier>
@@ -71,6 +71,18 @@
 				<string>IF_ELSE</string>
 			</competencies>
 		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando WHILE</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_REPETICAO</string>
+			</constraints>
+			<competencies>
+				<string>WHILE</string>
+			</competencies>
+		</learningObject>
 
 		<learningObject>
 			<duration>10</duration>
@@ -81,18 +93,6 @@
 			</constraints>
 			<competencies>
 				<string>SWITCH</string>
-			</competencies>
-		</learningObject>
-
-		<learningObject>
-			<duration>10</duration>
-			<identifier>Comando WHILE</identifier>
-			<constraints>
-				<string>CONCEITOS_C</string>
-				<string>ESTRUTURA_REPETICAO</string>
-			</constraints>
-			<competencies>
-				<string>WHILE</string>
 			</competencies>
 		</learningObject>
 

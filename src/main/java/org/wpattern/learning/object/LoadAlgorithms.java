@@ -179,7 +179,7 @@ public final class LoadAlgorithms {
 										totalTime += timeSpent;
 
 										if (LOGGER.isInfoEnabled()) {
-											LOGGER.info(String.format("Genetic Algorithm [%s], spent the time [%s ms] and solution [%s].",
+											LOGGER.info(String.format("Genetic Algorithm [%s], spent the time [%s ms] and founded solution [%s].",
 													i, timeSpent, Utils.printSolution(individuals.get(i))));
 										}
 									}
@@ -192,7 +192,7 @@ public final class LoadAlgorithms {
 											averageFitness += individuals.get(i).getFitness();
 										}
 
-										LOGGER.info(String.format("[%s] genetic algorithms executed with average time [%s ms] and average fitness [%s].", numRepetitions,
+										LOGGER.info(String.format("[%s] genetic algorithms executed with the average time [%s ms] and average fitness [%s].", numRepetitions,
 												totalTime / numRepetitions, averageFitness / individuals.size()));
 									}
 								}
