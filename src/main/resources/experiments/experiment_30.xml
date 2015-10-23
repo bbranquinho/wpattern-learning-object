@@ -1,0 +1,345 @@
+<rules>
+	<learningObjects>
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Conceitos do C++</identifier>
+			<competencies>
+				<string>CONCEITOS_C</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Programação Estruturada</identifier>
+			<competencies>
+				<string>PROGRAMACAO_ESTRUTURADA</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Pseudocódigo</identifier>
+			<constraints>
+				<string>PROGRAMACAO_ESTRUTURADA</string>
+			</constraints>
+			<competencies>
+				<string>PSEUDOCODIGO</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Estruturas de Controle</identifier>
+			<constraints>
+				<string>PSEUDOCODIGO</string>
+			</constraints>
+			<competencies>
+				<string>ESTRUTURA_CONTROLE</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Estruturas de Repetição</identifier>
+			<constraints>
+				<string>PSEUDOCODIGO</string>
+			</constraints>
+			<competencies>
+				<string>ESTRUTURA_REPETICAO</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando IF</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_CONTROLE</string>
+			</constraints>
+			<competencies>
+				<string>IF</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando IF/ELSE</identifier>
+			<constraints>
+				<string>IF</string>
+			</constraints>
+			<competencies>
+				<string>IF_ELSE</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando SWITCH</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_CONTROLE</string>
+			</constraints>
+			<competencies>
+				<string>SWITCH</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando WHILE</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_REPETICAO</string>
+			</constraints>
+			<competencies>
+				<string>WHILE</string>
+			</competencies>
+		</learningObject>
+
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando FOR</identifier>
+			<constraints>
+				<string>CONCEITOS_C</string>
+				<string>ESTRUTURA_REPETICAO</string>
+			</constraints>
+			<competencies>
+				<string>FOR</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Comando DO_WHILE</identifier>
+			<constraints>
+				<string>WHILE</string>
+			</constraints>
+			<competencies>
+				<string>DO_WHILE</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Recursao</identifier>
+			<constraints>
+				<string>WHILE</string>
+				<string>FOR</string>
+				<string>IF_ELSE</string>
+			</constraints>
+			<competencies>
+				<string>RECURSAO</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Programacao Funcional</identifier>
+			<constraints>
+				<string>RECURSAO</string>
+			</constraints>
+			<competencies>
+				<string>PROGRAMACAO_FUNCIONAL</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Grafos</identifier>
+			<constraints>
+				<string>RECURSAO</string>
+			</constraints>
+			<competencies>
+				<string>GRAFOS</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Largura</identifier>
+			<constraints>
+				<string>GRAFOS</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_LARGURA</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Profundidade</identifier>
+			<constraints>
+				<string>GRAFOS</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_PROFUNDIDADE</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Custo Uniforme</identifier>
+			<constraints>
+				<string>BUSCA_PROFUNDIDADE</string>
+				<string>BUSCA_LARGURA</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_CUSTO_UNIFORME</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Profundidade</identifier>
+			<constraints>
+				<string>GRAFOS</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_PROFUNDIDADE</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Bi Direcional</identifier>
+			<constraints>
+				<string>BUSCA_PROFUNDIDADE</string>
+				<string>BUSCA_LARGURA</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_BI_DIRECIONAL</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca AStar</identifier>
+			<constraints>
+				<string>BUSCA_PROFUNDIDADE</string>
+				<string>BUSCA_LARGURA</string>
+				<string>BUSCA_BI_DIRECIONAL</string>
+				<string>BUSCA_CUSTO_UNIFORME</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_ASTAR</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Hill Climbing</identifier>
+			<constraints>
+				<string>BUSCA_PROFUNDIDADE</string>
+				<string>BUSCA_LARGURA</string>
+				<string>BUSCA_BI_DIRECIONAL</string>
+				<string>BUSCA_CUSTO_UNIFORME</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_HILL_CLIMBING</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Hill Climbing Restart</identifier>
+			<constraints>
+				<string>BUSCA_PROFUNDIDADE</string>
+				<string>BUSCA_LARGURA</string>
+				<string>BUSCA_BI_DIRECIONAL</string>
+				<string>BUSCA_CUSTO_UNIFORME</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_HILL_CLIMBING_RESTART</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca LRTA</identifier>
+			<constraints>
+				<string>BUSCA_ASTAR</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_LRTA</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca SLAStar</identifier>
+			<constraints>
+				<string>BUSCA_ASTAR</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_SLA_STAR</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca LRTAStar k</identifier>
+			<constraints>
+				<string>BUSCA_LRTA</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_LRTA_K</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca C LRTAStar</identifier>
+			<constraints>
+				<string>BUSCA_LRTA</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_C_LRTA</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca TBAStar</identifier>
+			<constraints>
+				<string>BUSCA_ASTAR</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_TBA_STAR</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca KNN LRTAStar</identifier>
+			<constraints>
+				<string>BUSCA_LRTA</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_KNN_LRTA</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Dynamic LRTAStar</identifier>
+			<constraints>
+				<string>BUSCA_LRTA</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_DYNAMIC_LRTA</string>
+			</competencies>
+		</learningObject>
+		
+		<learningObject>
+			<duration>10</duration>
+			<identifier>Busca Dynamic LRTAStar k</identifier>
+			<constraints>
+				<string>BUSCA_LRTA</string>
+				<string>BUSCA_HILL_CLIMBING_RESTART</string>
+			</constraints>
+			<competencies>
+				<string>BUSCA_DYNAMIC_LRTA_K</string>
+			</competencies>
+		</learningObject>
+	</learningObjects>
+</rules>
