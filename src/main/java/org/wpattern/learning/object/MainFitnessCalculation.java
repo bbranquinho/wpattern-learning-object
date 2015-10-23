@@ -23,7 +23,7 @@ public final class MainFitnessCalculation {
 			LOGGER.info("Application started.");
 		}
 
-		if (args.length != 1) {
+		if (args.length < 1) {
 			LOGGER.error("Template required.");
 			System.exit(-1);
 		}

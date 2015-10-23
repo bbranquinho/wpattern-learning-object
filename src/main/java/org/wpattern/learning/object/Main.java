@@ -19,8 +19,8 @@ public final class Main {
 			LOGGER.info("Application started.");
 		}
 
-		if (args.length != 1) {
-			LOGGER.error("Properties must be passed.");
+		if (args.length < 1) {
+			LOGGER.error("Properties required.");
 			System.exit(-1);
 		}
 
