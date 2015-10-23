@@ -178,8 +178,8 @@ public final class LoadAlgorithms {
 
 										totalTime += timeSpent;
 
-										if (LOGGER.isInfoEnabled()) {
-											LOGGER.info(String.format("Genetic Algorithm [%s], spent the time [%s ms] and founded solution [%s].",
+										if (LOGGER.isDebugEnabled()) {
+											LOGGER.debug(String.format("Genetic Algorithm [%s], spent the time [%s ms] and founded solution [%s].",
 													i, timeSpent, Utils.printSolution(individuals.get(i))));
 										}
 									}
@@ -188,7 +188,7 @@ public final class LoadAlgorithms {
 										long averageFitness = 0;
 
 										for (int i = 0; i < individuals.size(); i++) {
-											LOGGER.info(Utils.printSolution(individuals.get(i)));
+											LOGGER.debug(Utils.printSolution(individuals.get(i)));
 											averageFitness += individuals.get(i).getFitness();
 										}
 
@@ -416,8 +416,8 @@ public final class LoadAlgorithms {
 
 						totalTime += timeSpent;
 
-						if (LOGGER.isInfoEnabled()) {
-							LOGGER.info(String.format("Search [%s], spent the time [%s ms] and solution [%s].", i, timeSpent,
+						if (LOGGER.isDebugEnabled()) {
+							LOGGER.debug(String.format("Search [%s], spent the time [%s ms] and solution [%s].", i, timeSpent,
 									Utils.printSolution(nodes.get(i))));
 						}
 					}
