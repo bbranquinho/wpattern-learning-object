@@ -8,6 +8,7 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.wpattern.learning.object.beans.ConfigBean;
+import org.wpattern.learning.object.elements.ConstraintFitness;
 import org.wpattern.learning.object.elements.DistanceFitness;
 import org.wpattern.learning.object.elements.Fitness;
 import org.wpattern.learning.object.elements.Graphic;
@@ -188,7 +189,9 @@ public final class LoadAlgorithms {
 										long averageFitness = 0;
 
 										for (int i = 0; i < individuals.size(); i++) {
-											LOGGER.debug(Utils.printSolution(individuals.get(i)));
+											if (LOGGER.isDebugEnabled()) {
+												LOGGER.debug(Utils.printSolution(individuals.get(i)));
+											}
 											averageFitness += individuals.get(i).getFitness();
 										}
 
@@ -253,6 +256,10 @@ public final class LoadAlgorithms {
 			fitnessType = fitnessType.trim().toLowerCase();
 
 			switch (fitnessType) {
+			case "constraint":
+				fitnesses.add(new ConstraintFitness());
+				break;
+
 			case "simple":
 				fitnesses.add(new Fitness());
 				break;
@@ -426,7 +433,9 @@ public final class LoadAlgorithms {
 						long averageFitness = 0;
 
 						for (int i = 0; i < nodes.size(); i++) {
-							LOGGER.info(Utils.printSolution(nodes.get(i)));
+							if (LOGGER.isDebugEnabled()) {
+								LOGGER.debug(Utils.printSolution(nodes.get(i)));
+							}
 							averageFitness += nodes.get(i).getFitness();
 						}
 
@@ -462,6 +471,10 @@ public final class LoadAlgorithms {
 			fitnessType = fitnessType.trim().toLowerCase();
 
 			switch (fitnessType) {
+			case "constraint":
+				fitnesss.add(new ConstraintFitness());
+				break;
+
 			case "simple":
 				fitnesss.add(new Fitness());
 				break;
