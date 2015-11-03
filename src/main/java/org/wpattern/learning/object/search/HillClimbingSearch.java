@@ -75,7 +75,7 @@ public class HillClimbingSearch implements ISearch {
 			}
 
 			if (countNodes <= 0) {
-				LOGGER.warn(String.format("Not founded chieldrens nodes to [%s].", current));
+				LOGGER.warn(String.format("Not founded chieldren nodes to [%s].", current));
 				break;
 			}
 
